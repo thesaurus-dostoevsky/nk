@@ -25,7 +25,7 @@ var nodes = [{'id': '5', 'label': 'русский', 'title': 'Этнопоэти
 {'id': '119', 'label': 'стиль', 'title': 'Литературоведение, 65', 'value': '2', 'group': '3', 'shape': 'diamond'},
 {'id': '81', 'label': 'былина', 'title': 'Литературоведение, 113', 'value': '4', 'group': '3', 'shape': 'diamond'},
 {'id': '6', 'label': 'время', 'title': 'Литературоведение, 2345', 'value': '47', 'group': '2', 'shape': 'diamond'},
-{'id': '4', 'label': 'слово', 'title': 'Этнопоэтика, 3827', 'value': '61', 'group': '4', 'shape': 'hexagon', 'font': {'strokeWidth': 10, 'strokeColor': '#ffffff'}},
+{'id': '4', 'label': 'слово', 'title': 'Этнопоэтика, 3827', 'value': '61', 'group': '4', 'shape': 'hexagon'},
 {'id': '17', 'label': 'русский литература', 'title': 'Литературоведение, 1592', 'value': '28', 'group': '9', 'shape': 'diamond'},
 ];
 var edges = [{'from': '15', 'to': '24', 'title': '51', 'value': '51'},
