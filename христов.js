@@ -1,0 +1,18 @@
+var nodes = [{'id': '37', 'label': 'воскресение', 'title': 'Этнопоэтика, 634', 'value': '15', 'group': '4', 'shape': 'hexagon'},
+{'id': '187', 'label': 'христов', 'title': 'Этнопоэтика, 40', 'value': '1', 'group': '4', 'shape': 'hexagon', 'font': {'strokeWidth': 10, 'strokeColor': '#ffffff'}},
+];
+var edges = [{'from': '37', 'to': '31', 'title': '82', 'value': '82'},
+{'from': '37', 'to': '1', 'title': '114', 'value': '114'},
+{'from': '37', 'to': '18', 'title': '28', 'value': '28'},
+{'from': '37', 'to': '3', 'title': '35', 'value': '35'},
+{'from': '37', 'to': '110', 'title': '26', 'value': '26'},
+{'from': '37', 'to': '187', 'title': '40', 'value': '40'},
+{'from': '37', 'to': '4', 'title': '26', 'value': '26'},
+{'from': '37', 'to': '11', 'title': '66', 'value': '66'},
+{'from': '37', 'to': '6', 'title': '35', 'value': '35'},
+{'from': '37', 'to': '24', 'title': '41', 'value': '41'},
+{'from': '37', 'to': '63', 'title': '25', 'value': '25'},
+{'from': '37', 'to': '37', 'title': '28', 'value': '28'},
+{'from': '37', 'to': '20', 'title': '33', 'value': '33'},
+{'from': '23', 'to': '37', 'title': '27', 'value': '27'},
+];

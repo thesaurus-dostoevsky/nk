@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--template from https://visjs.github.io/vis-network/examples/network/edgeStyles/smoothWorldCup.html !-->
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF8" />
+    <title>
+     Закон
+    </title>
+
+    <script
+      type="text/javascript"
+      src="https://visjs.github.io/vis-network/standalone/umd/vis-network.min.js"
+    ></script>
+
+    <script src="закон.js"></script>
+
+    <style type="text/css">
+      #mynetwork {
+        width: 100%;
+        height: 800px;
+        border: 1px solid lightgray;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div id="mynetwork"></div>
+
+    <script type="text/javascript">
+      var network;
+
+      function redrawAll() {
+        var container = document.getElementById("mynetwork");
+        var options = {
+          nodes: {
+            shape: "dot",
+            scaling: {
+              min: 10,
+              max: 23,
+            },
+            font: {
+              size: 20,
+              face: "Tahoma",
+            },
+          },
+          edges: {
+            color: {
+              inherit: "both",
+              opacity: 0.75
+            },
+            width: 0.15,
+            scaling: {
+              min: 1,
+              max: 8,
+            },
+            smooth: {
+              type: "continuous",
+              forceDirection: "none",
+            },
+          },
+          interaction: {
+            tooltipDelay: 200,
+          },
+          physics:
+                  {
+                      "forceAtlas2Based": {
+                              "gravitationalConstant": -300,
+                              "centralGravity": 0.025,
+                              "springLength": 160,
+                              "springConstant": 1,
+                              "damping": 1
+                                          },
+          "maxVelocity": 5,
+          "minVelocity": 0.08,
+          "solver": "forceAtlas2Based"
+  },
+  stabilization: {
+            enabled: true,
+            iterations: 5,
+            updateInterval: 10,
+            onlyDynamicEdges: false,
+            fit: true
+        },
+        };
+
+
+        var data = { nodes: nodes, edges: edges };
+        network = new vis.Network(container, data, options);
+      }
+
+      redrawAll();
+    </script>
+  </body>
+</html>

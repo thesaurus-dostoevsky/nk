@@ -1,0 +1,18 @@
+var nodes = [{'id': '180', 'label': 'церковный', 'title': 'Этнопоэтика, 27', 'value': '1', 'group': '3', 'shape': 'hexagon', 'font': {'strokeWidth': 10, 'strokeColor': '#ffffff'}},
+{'id': '36', 'label': 'язык', 'title': 'Литературоведение, 1004', 'value': '15', 'group': '3', 'shape': 'diamond'},
+];
+var edges = [{'from': '4', 'to': '36', 'title': '114', 'value': '114'},
+{'from': '6', 'to': '36', 'title': '29', 'value': '29'},
+{'from': '36', 'to': '36', 'title': '67', 'value': '67'},
+{'from': '5', 'to': '36', 'title': '318', 'value': '318'},
+{'from': '158', 'to': '36', 'title': '47', 'value': '47'},
+{'from': '25', 'to': '36', 'title': '53', 'value': '53'},
+{'from': '119', 'to': '36', 'title': '30', 'value': '30'},
+{'from': '10', 'to': '36', 'title': '80', 'value': '80'},
+{'from': '7', 'to': '36', 'title': '44', 'value': '44'},
+{'from': '33', 'to': '36', 'title': '36', 'value': '36'},
+{'from': '2', 'to': '36', 'title': '33', 'value': '33'},
+{'from': '180', 'to': '36', 'title': '27', 'value': '27'},
+{'from': '181', 'to': '36', 'title': '27', 'value': '27'},
+{'from': '38', 'to': '36', 'title': '32', 'value': '32'},
+];
