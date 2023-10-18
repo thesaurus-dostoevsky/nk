@@ -1,0 +1,17 @@
+var nodes = [{'id': '438', 'label': 'фольклор', 'title': 'Литературоведение, 104', 'value': '1', 'shape': 'diamond'},
+{'id': '591', 'label': 'этнография', 'title': 'Философский и др. дискурсы, 21', 'value': '1', 'shape': 'triangle', 'font': {'strokeWidth': 10, 'strokeColor': '#ffffff'}},
+];
+var edges = [{'from': '5', 'to': '438', 'title': '22', 'value': '22'},
+{'from': '81', 'to': '438', 'title': '6', 'value': '6'},
+{'from': '19', 'to': '438', 'title': '6', 'value': '6'},
+{'from': '10', 'to': '438', 'title': '22', 'value': '22'},
+{'from': '40', 'to': '438', 'title': '5', 'value': '5'},
+{'from': '28', 'to': '438', 'title': '8', 'value': '8'},
+{'from': '438', 'to': '591', 'title': '7', 'value': '7'},
+{'from': '16', 'to': '438', 'title': '6', 'value': '6'},
+{'from': '94', 'to': '438', 'title': '7', 'value': '7'},
+{'from': '34', 'to': '438', 'title': '16', 'value': '16'},
+{'from': '216', 'to': '438', 'title': '5', 'value': '5'},
+{'from': '311', 'to': '438', 'title': '6', 'value': '6'},
+{'from': '438', 'to': '194', 'title': '5', 'value': '5'},
+];
