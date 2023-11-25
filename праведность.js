@@ -1,0 +1,18 @@
+var nodes = [{'id': '663', 'label': 'святость', 'title': 'Этнопоэтика, 121', 'value': '1', 'group': '', 'shape': 'hexagon'},
+{'id': '664', 'label': 'праведность', 'title': 'Этнопоэтика, 31', 'value': '1', 'group': '', 'shape': 'hexagon', 'font': {'strokeWidth': 10, 'strokeColor': '#ffffff'}},
+];
+var edges = [{'from': '651', 'to': '663', 'title': '9', 'value': '9'},
+{'from': '663', 'to': '5', 'title': '29', 'value': '29'},
+{'from': '663', 'to': '65', 'title': '14', 'value': '14'},
+{'from': '663', 'to': '2', 'title': '9', 'value': '9'},
+{'from': '663', 'to': '9', 'title': '9', 'value': '9'},
+{'from': '663', 'to': '664', 'title': '8', 'value': '8'},
+{'from': '663', 'to': '42', 'title': '8', 'value': '8'},
+{'from': '663', 'to': '666', 'title': '7', 'value': '7'},
+{'from': '663', 'to': '11', 'title': '7', 'value': '7'},
+{'from': '663', 'to': '26', 'title': '6', 'value': '6'},
+{'from': '663', 'to': '57', 'title': '5', 'value': '5'},
+{'from': '663', 'to': '12', 'title': '5', 'value': '5'},
+{'from': '663', 'to': '667', 'title': '5', 'value': '5'},
+{'from': '663', 'to': '54', 'title': '5', 'value': '5'},
+];
